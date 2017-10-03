@@ -195,7 +195,7 @@ foreach ($media_list as $media_entry) {
 	if ($listing_manage) {
 		echo '<div class="options"><input type="checkbox" name="mid[]" class="entry-select" value="'.$media_entry['mid'].'" /></div>';
 	} else if ($users_manage) {
-		echo '<div class="options"><input type="checkbox" name="mid[]" class="entry-select" value="'.$media_entry['mid'].'" /> <a href="/edit/media/'.$media_entry['mid'].'/" class="button small round">edit</a> <a href="/delete/media/'.$media_entry['mid'].'/" class="button small round alert">delete</a></div>';
+		echo '<div class="options"><input type="checkbox" name="mid[]" class="entry-select" value="'.$media_entry['mid'].'" /> <a href="/download/51446/" class="button small round download-button">download</a> <a href="/edit/media/'.$media_entry['mid'].'/" class="button small round">edit</a> <a href="/delete/media/'.$media_entry['mid'].'/" class="button small round alert">delete</a></div>';
 	}
 	echo '<div class="thumb"><img src="'.$thumb.'" /></div>'."\n";
 	echo '<div class="entry-info">'."\n";

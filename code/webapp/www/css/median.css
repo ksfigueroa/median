@@ -329,6 +329,16 @@ table td {
     background: #6500A7;
 }
 
+a.download-button {
+    border-color: #30733F;
+    background: #44a258;
+}
+
+a.download-button:hover {
+    border-color: #1e4827;
+    background: #30733f;
+}
+
 div.panel {
     background: #f2f2f2;
     padding: 1em;

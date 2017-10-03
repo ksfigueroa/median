@@ -21,6 +21,7 @@ if (!isset($page_title) || trim($page_title) == '') {
 <link rel="stylesheet" href="https://pages.emerson.edu/cdn/css/lato-median.css" />
 <link rel="stylesheet" href="/css/normalize.css" />
 <link rel="stylesheet" href="/css/median.css" />
+<script type="text/javascript" src="/js/Stuk-jszip-edc3323/dist/jszip.js"></script>
 </head>
 <body class="<?php echo $page_uuid; ?>">
 
